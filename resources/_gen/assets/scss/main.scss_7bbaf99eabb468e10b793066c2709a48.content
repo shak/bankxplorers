@@ -973,3 +973,6 @@
 
 .gallery-slider {
   @apply ml-0 !important; }
+
+.bg-light-dark {
+  background-color: #c7f48c; }

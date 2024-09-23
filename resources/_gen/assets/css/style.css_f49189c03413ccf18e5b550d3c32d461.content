@@ -962,7 +962,7 @@ main {
   border-radius: 0.25rem;
   border-color: transparent;
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 1rem;
@@ -1045,7 +1045,7 @@ main {
   height: 0.625rem !important;
   width: 0.625rem !important;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity)) !important;
   opacity: 1 !important;
 }
 .swiper-pagination-bullet:is(.dark *) {
@@ -1548,7 +1548,7 @@ main {
   --tw-border-opacity: 1;
   border-color: rgb(26 26 26 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2.5rem;
@@ -1572,7 +1572,7 @@ main {
 .content :is(:where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
   border-radius: 12px;
 }
 .content:is(.dark *) :is(:where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
@@ -1646,7 +1646,7 @@ main {
   --tw-border-opacity: 1;
   border-color: rgb(234 255 199 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
 }
 .content:is(.dark *) :is(:where(thead):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-border-opacity: 1;
@@ -2148,7 +2148,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .bg-theme-light {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -2163,7 +2163,7 @@ input#nav-toggle:checked ~ #nav-menu {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .to-theme-light {
-  --tw-gradient-to: #c7f48c var(--tw-gradient-to-position);
+  --tw-gradient-to: #eaffc7 var(--tw-gradient-to-position);
 }
 .fill-current {
   fill: currentColor;
@@ -3193,7 +3193,7 @@ input#nav-toggle:checked ~ #nav-menu {
   --tw-border-opacity: 1;
   border-color: rgb(234 255 199 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
   padding-left: 1rem;
 }
   .tab-nav:is(.dark *) {
@@ -3236,7 +3236,7 @@ input#nav-toggle:checked ~ #nav-menu {
   --tw-border-opacity: 1;
   border-color: rgb(234 255 199 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
   border-radius: 12px;
 }
 
@@ -3263,6 +3263,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .gallery-slider {
   margin-left: 0px !important;
 }
+
+.bg-light-dark {
+  background-color: #c7f48c; }
 
 @media (min-width: 540px) {
 
@@ -3370,7 +3373,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 .hover\:bg-theme-light:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 244 140 / var(--tw-bg-opacity));
+  background-color: rgb(234 255 199 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover {
