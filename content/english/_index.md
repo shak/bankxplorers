@@ -1,37 +1,43 @@
 ---
 # Banner
 banner:
-  title: "Exploring banking one penny at a time!"
-  content: ""
-  image: "/images/banner.png"
+  title: "Are you ready to take control of your finances?"
+  content: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!
+  <br><br>
+  Join us and learn how to manage your personal finances<br><br>
+  **Confidently, responsibly and securely**"
+  image: false
   button:
-    enable: true
-    label: "Get Started For Free"
+    enable: false
+    label: "Get Started"
     link: "https://github.com/zeon-studio/hugoplate"
 
 # Features
 features:
-  - title: "What we offer"
-    image: "/images/service-1.png"
-    content: "Bankxplorers offer comprehensive services"
+  - title: "Banking Basics"
+    image: "/images/1.jpg"
+    content: "Ever wondered how banking helps with managing your personal finances? This session will help you dive into the world of banking, discovering different types of accounts, bank statements, interest on savings, budgeting and much more"
     bulletpoints:
-      - "Educational Material"
-      - "***Hands on*** workshops"
-      - "Banks, Loans, Credit cards, mortgages etc."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of bankxplorers"
-    image: "/images/service-2.png"
-    content: "Key features of services offered by ys:"
+  - title: "Borrowing, Interest and Credit Scores"
+    image: "/images/2.jpg"
+    content: "Learn all about different types of borrowing, understand how credit cards work, what interest rates really mean, and how credit scores impact your financial journey"
     bulletpoints:
-      - " by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
-      enable: true
+      enable: false
+      label: "Get Started Now"
+      link: "#"
+
+  - title: "Navigating the digital world safely and securely"
+    image: "/images/3.jpg"
+    content: "Scammers are getting smarter, but so are we! Learn how to protect your personal information, recognise phishing scams, and secure your accounts with smart practices. We’ll arm you with the tools you need to be a savvy digital banker!"
+    bulletpoints:
+    button:
+      enable: false
       label: "Get Started Now"
       link: "#"
 ---

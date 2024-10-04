@@ -5,7 +5,7 @@
   lang="en-us"
   itemtype="http://schema.org/WebPage">
   <head>
-	<meta name="generator" content="Hugo 0.134.3">
+	<meta name="generator" content="Hugo 0.134.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -73,6 +73,7 @@
 
 
 
+  <base href="//localhost:1313/" />
 
 
 
@@ -156,8 +157,8 @@
       
       
       
-        <meta property="og:image" content="/images/og-image.png" />
-        <meta name="twitter:image" content="/images/og-image.png" />
+        <meta property="og:image" content="//localhost:1313/images/og-image.png" />
+        <meta name="twitter:image" content="//localhost:1313/images/og-image.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -184,7 +185,7 @@
 <meta property="og:title" content="bankXplorers" />
 <meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
+<meta property="og:url" content="//localhost:1313/" />
 
 
 <meta name="twitter:title" content="bankXplorers" />
@@ -211,7 +212,7 @@
 
 
 <script>
-  let indexURL = "/searchindex.json";
+  let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -321,8 +322,8 @@
 
 
 <link
-  href="/css/style.min.08b1fc52e32bdbe738fae57b881884025ee18c23adf0d0dceeecd2e7836bc96f.css"
-  integrity="sha256-CLH8UuMr2+c4+uV7iBiEAl7hjCOt8NDc7uzS54NryW8="
+  href="/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
@@ -330,8 +331,8 @@
   defer
   async
   rel="stylesheet"
-  href="/css/style-lazy.min.5d85e889fd5f5b28f9387aeade847fcb0a66d76a99a985ab4cdae3d37cf21557.css"
-  integrity="sha256-XYXoif1fWyj5OHrq3oR/ywpm12qZqYWrTNrj03zyFVc="
+  href="/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -345,7 +346,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -750,22 +762,12 @@
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
-              Exploring banking one penny at a time!
+              Are you ready to take control of your finances?
             </h1>
             <p class="mb-8">
-              
+              Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered! <br><br> Join us and learn how to manage your personal finances<br><br> <strong>Confidently, responsibly and securely</strong>
             </p>
             
-              
-                <a
-                  class="btn btn-primary"
-                  href="https://github.com/zeon-studio/hugoplate"
-                  
-                    target="_blank" rel="noopener"
-                  >
-                  Get Started For Free
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
               
             
           </div>
@@ -799,8 +801,6 @@
 
 
 
-  
-
 
 
 
@@ -808,77 +808,6 @@
   
 
   
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <picture>
-          <source
-            
-              srcset="/images/banner_hu5767889388093870374.webp"
-            
-            media="(max-width: 575px)" />
-          <source
-            
-              srcset="/images/banner_hu13454120556947067300.webp"
-            
-            media="(max-width: 767px)" />
-          <source
-            
-              srcset="/images/banner_hu16092701587328752241.webp"
-            
-            media="(max-width: 991px)" />
-          <source
-            
-              srcset="/images/banner_hu13533946027924257200.webp"
-             />
-          <img
-            
-              loading="eager" decoding="async"
-              src="/images/banner_hu16949873544788829848.png"
-            class=" mx-auto lg:!max-w-[800px] img"
-            alt="Banner image"
-            width="1206"
-            height="553" />
-        </picture>
-      
-      
-    
-    
   
 
 
@@ -892,9 +821,18 @@
   
   
 
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h2 class="mb-10">
+            What we offer?
+          </h2>
+        </div>
+      </div>
+    </div>
   
   
-    <section class="section-sm bg-gradient">
+    <section class="section-sm bg-grey">
       <div class="container">
         <div class="row items-center justify-between">
           <div
@@ -978,31 +916,31 @@
         <picture>
           <source
             
-              srcset="/images/service-1_hu8565225483959670941.webp"
+              srcset="/images/1_hu16075416930539663651.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/service-1_hu8390308380277492131.webp"
+              srcset="/images/1_hu8373059257039256187.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/service-1_hu16424449951254626148.webp"
+              srcset="/images/1_hu8514165051639954312.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/service-1_hu10090591333125964667.webp"
+              srcset="/images/1_hu78453370182378901.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/service-1_hu12659345426414043164.png"
+              src="/images/1_hu16850867540576292370.jpg"
             class="  img"
             alt="feature image"
-            width="559"
-            height="518" />
+            width="1000"
+            height="600" />
         </picture>
       
       
@@ -1017,28 +955,13 @@
           </div>
           <div
             class=" md:col-7 lg:col-6">
-            <h2 class="mb-4">
-              What we offer
-            </h2>
+            <h3 class="mb-4">
+              Banking Basics
+            </h>
             <p class="mb-8 text-lg">
-              Bankxplorers offer comprehensive services
+              Ever wondered how banking helps with managing your personal finances? This session will help you dive into the world of banking, discovering different types of accounts, bank statements, interest on savings, budgeting and much more
             </p>
             <ul>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Educational Material
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  <em><strong>Hands on</strong></em> workshops
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Banks, Loans, Credit cards, mortgages etc.
-                </li>
               
             </ul>
             
@@ -1135,31 +1058,31 @@
         <picture>
           <source
             
-              srcset="/images/service-2_hu16909529305912540589.webp"
+              srcset="/images/2_hu9869446904888018679.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/service-2_hu3611386923542482394.webp"
+              srcset="/images/2_hu11506848660649750182.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/service-2_hu15461411525482074974.webp"
+              srcset="/images/2_hu2981679009142036451.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/service-2_hu8306436099159137772.webp"
+              srcset="/images/2_hu13085970270923044048.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/service-2_hu6583188555084952715.png"
+              src="/images/2_hu5665546235481278754.jpg"
             class="  img"
             alt="feature image"
-            width="548"
-            height="526" />
+            width="1000"
+            height="600" />
         </picture>
       
       
@@ -1176,36 +1099,156 @@
             class="
               md:order-1
              md:col-7 lg:col-6">
-            <h2 class="mb-4">
-              Discover the Key Features Of bankxplorers
-            </h2>
+            <h3 class="mb-4">
+              Borrowing, Interest and Credit Scores
+            </h>
             <p class="mb-8 text-lg">
-              Key features of services offered by ys:
+              Learn all about different types of borrowing, understand how credit cards work, what interest rates really mean, and how credit scores impact your financial journey
             </p>
             <ul>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  by default: No JavaScript runtime overhead to slow you down.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  Customizable: Tailwind, MDX, and 100+ other integrations to choose from.
-                </li>
-              
-                <li class="relative mb-4 pl-6">
-                  <i class="fa fa-check absolute left-0 top-1.5"></i>
-                  UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.
-                </li>
               
             </ul>
             
               
-                <a class="btn btn-primary mt-6" href="/">
-                  Get Started Now
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section-sm bg-grey">
+      <div class="container">
+        <div class="row items-center justify-between">
+          <div
+            class="mb:md-0  md:col-5 mb-6">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/3_hu10825338551075161907.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/3_hu17821554820109009779.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/3_hu7885055931926529848.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/3_hu18256935402224033415.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/3_hu3048614912070068148.jpg"
+            class="  img"
+            alt="feature image"
+            width="1000"
+            height="600" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+          </div>
+          <div
+            class=" md:col-7 lg:col-6">
+            <h3 class="mb-4">
+              Navigating the digital world safely and securely
+            </h>
+            <p class="mb-8 text-lg">
+              Scammers are getting smarter, but so are we! Learn how to protect your personal information, recognise phishing scams, and secure your accounts with smart practices. We’ll arm you with the tools you need to be a savvy digital banker!
+            </p>
+            <ul>
+              
+            </ul>
+            
               
             
           </div>
@@ -1223,10 +1266,10 @@
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
               <h2 class="mb-4">
-                What Users Are Saying About bankxplorers
+                Why join us?
               </h2>
               <p>
-                Don&rsquo;t just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about bankxplorers.
+                
               </p>
             </div>
             <div class="col-12">
@@ -1235,521 +1278,58 @@
                   
                     <div class="swiper-slide">
                       <div
-                        class="bg-light-dark dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
-                          <svg
-                            width="33"
-                            height="20"
-                            viewBox="0 0 33 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
-                              fill="currentColor" />
-                          </svg>
-                        </div>
-                        <blockquote class="mt-8">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.
-                        </blockquote>
-                        <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/avatar-sm_hu9360391836747242571.webp" loading="lazy"
-            decoding="async"
-          
-
-          alt="Marvin McKinney"
-          class=" rounded-full img"
-          width="50"
-          height="50"
-          onerror="this.onerror='null';
-          this.src='\/images\/avatar-sm_hu11655498011160422445.png';" />
-
-        
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </div>
+                        class="bg-white-bordered dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        <div class="items-center text-center">
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
-                              Marvin McKinney
+                              Empowerment
                             </h3>
                             <p class="text-dark dark:text-white">
-                              Web Designer
+                              
                             </p>
                           </div>
                         </div>
+                        <blockquote class="mt-8 text-center">
+                          Gain confidence in your money management and personal banking skills, to take the first step towards financial independence
+                        </blockquote>
                       </div>
                     </div>
                   
                     <div class="swiper-slide">
                       <div
-                        class="bg-light-dark dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
-                          <svg
-                            width="33"
-                            height="20"
-                            viewBox="0 0 33 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
-                              fill="currentColor" />
-                          </svg>
-                        </div>
-                        <blockquote class="mt-8">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.
-                        </blockquote>
-                        <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/avatar-sm_hu9360391836747242571.webp" loading="lazy"
-            decoding="async"
-          
-
-          alt="Marvin McKinney"
-          class=" rounded-full img"
-          width="50"
-          height="50"
-          onerror="this.onerror='null';
-          this.src='\/images\/avatar-sm_hu11655498011160422445.png';" />
-
-        
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </div>
+                        class="bg-white-bordered dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        <div class="items-center text-center">
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
-                              Marvin McKinney
+                              Expert Insights
                             </h3>
                             <p class="text-dark dark:text-white">
-                              Web Designer
+                              
                             </p>
                           </div>
                         </div>
+                        <blockquote class="mt-8 text-center">
+                          Firsthand experiences from the banking industry, including valuable tips on managing finances and navigating banking services
+                        </blockquote>
                       </div>
                     </div>
                   
                     <div class="swiper-slide">
                       <div
-                        class="bg-light-dark dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
-                          <svg
-                            width="33"
-                            height="20"
-                            viewBox="0 0 33 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
-                              fill="currentColor" />
-                          </svg>
-                        </div>
-                        <blockquote class="mt-8">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.
-                        </blockquote>
-                        <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/avatar-sm_hu9360391836747242571.webp" loading="lazy"
-            decoding="async"
-          
-
-          alt="Marvin McKinney"
-          class=" rounded-full img"
-          width="50"
-          height="50"
-          onerror="this.onerror='null';
-          this.src='\/images\/avatar-sm_hu11655498011160422445.png';" />
-
-        
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </div>
+                        class="bg-white-bordered dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
+                        <div class="items-center text-center">
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
-                              Marvin McKinney
+                              Interactive Learning
                             </h3>
                             <p class="text-dark dark:text-white">
-                              Web Designer
+                              
                             </p>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  
-                    <div class="swiper-slide">
-                      <div
-                        class="bg-light-dark dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
-                          <svg
-                            width="33"
-                            height="20"
-                            viewBox="0 0 33 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M1.28375 19.41L0.79375 18.64C1.21375 17.0067 1.75042 15.07 2.40375 12.83C3.05708 10.5433 3.75708 8.28 4.50375 6.04C5.29708 3.75333 6.06708 1.77 6.81375 0.0899959H15.3538C14.9338 2.09666 14.4904 4.26667 14.0238 6.6C13.5571 8.88666 13.1371 11.15 12.7638 13.39C12.4371 15.5833 12.1571 17.59 11.9238 19.41H1.28375ZM31.69 0.0899959L32.18 0.859998C31.76 2.54 31.2233 4.5 30.57 6.74C29.9167 8.98 29.2167 11.2433 28.47 13.53C27.7233 15.77 26.9533 17.73 26.16 19.41H17.69C18.0167 17.9167 18.3433 16.33 18.67 14.65C18.9967 12.9233 19.3 11.22 19.58 9.54C19.9067 7.81333 20.1867 6.15667 20.42 4.57C20.7 2.93666 20.91 1.44333 21.05 0.0899959H31.69Z"
-                              fill="currentColor" />
-                          </svg>
-                        </div>
-                        <blockquote class="mt-8">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.
+                        <blockquote class="mt-8 text-center">
+                          Hands-on activities, discussions and simulations that make complex concepts relatable<br><br>
                         </blockquote>
-                        <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-  
-    
-      
-    
-
-
-    
-    
-
-
-    
-    
-      
-      
-    
-    
-    
-
-
-    
-    
-      
-      
-        
-        
-        
-        
-        
-        
-
-
-        
-        
-
-
-        <img
-          
-            src="/images/avatar-sm_hu9360391836747242571.webp" loading="lazy"
-            decoding="async"
-          
-
-          alt="Marvin McKinney"
-          class=" rounded-full img"
-          width="50"
-          height="50"
-          onerror="this.onerror='null';
-          this.src='\/images\/avatar-sm_hu11655498011160422445.png';" />
-
-        
-      
-      
-    
-    
-  
-
-
-  
-
-
-                          </div>
-                          <div class="ml-4">
-                            <h3 class="h5 font-primary font-semibold">
-                              Marvin McKinney
-                            </h3>
-                            <p class="text-dark dark:text-white">
-                              Web Designer
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   
@@ -2037,23 +1617,20 @@
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-LO9JECYLqyMcpGlrtxZcpUn0I8AvhO6oIIibJZv4zbk="
-  src="/js/script.min.2cef4910260bab231ca4696bb7165ca549f423c02f84eea820889b259bf8cdb9.js"></script>
+  integrity=""
+  src="/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-w&#43;aS42D2&#43;B&#43;Jix&#43;joZ7pAua1vbu/pRK/IhoP55b8n3w="
-  src="/js/script-lazy.min.c3e692e360f6f81f898b1fa3a19ee902e6b5bdbbbfa512bf221a0fe796fc9f7c.js"></script>
+  integrity=""
+  src="/js/script-lazy.js"></script>
 
 
 
