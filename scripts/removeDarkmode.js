@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const rootDirs = ["assets/scss", "layouts"];
+const rootDirs = ["themes/hugoplate/assets/scss", "themes/hugoplate/layouts"];
 const configFiles = [
   {
     filePath: "exampleSite/tailwind.config.js",
@@ -16,12 +16,12 @@ const configFiles = [
 // asset paths
 const deleteAssetList = [
   "exampleSite/assets/images/logo-darkmode.png",
-  "layouts/partials/components/theme-switcher.html",
+  "themes/hugoplate/layouts/partials/components/theme-switcher.html",
 ];
 
 const filePaths = [
   {
-    filePath: "layouts/partials/essentials/header.html",
+    filePath: "themes/hugoplate/layouts/partials/essentials/header.html",
     patterns: [
       '{{\\s*partial\\s*"components\\/theme-switcher"\\s*\\([^)]*\\)\\s*}}',
     ],
