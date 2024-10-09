@@ -11,30 +11,3 @@
 .bg-grey {
     background-color: #f9f9f9;
 }
-
-h5, .h5 {
-    font-size: 2rem;
-}
-
-h1, h2, h3, h4, h5, h6 , .font-primary {
-    font-family: Signika, sans-serif;
-}
-
-@media (min-width: 1280px) {
-
-  .section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-}
-.section-sm {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-@media (min-width: 1280px) {
-
-  .section-sm {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
