@@ -1934,20 +1934,14 @@ input#nav-toggle:checked ~ #nav-menu {
 .fill-current {
   fill: currentColor;
 }
+.p-0 {
+  padding: 0px;
+}
 .p-10 {
   padding: 2.5rem;
 }
-.p-12 {
-  padding: 3rem;
-}
-.p-2 {
-  padding: 0.5rem;
-}
 .p-3 {
   padding: 0.75rem;
-}
-.p-4 {
-  padding: 1rem;
 }
 .p-5 {
   padding: 1.25rem;
@@ -2007,23 +2001,17 @@ input#nav-toggle:checked ~ #nav-menu {
 .pb-16 {
   padding-bottom: 4rem;
 }
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
 .pb-6 {
   padding-bottom: 1.5rem;
 }
-.pl-4 {
-  padding-left: 1rem;
-}
-.pr-4 {
-  padding-right: 1rem;
+.pt-0 {
+  padding-top: 0px;
 }
 .pt-14 {
   padding-top: 3.5rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 .pt-7 {
   padding-top: 1.75rem;
@@ -3132,14 +3120,6 @@ input#nav-toggle:checked ~ #nav-menu {
   .sm\:bg-red-200 {
     --tw-bg-opacity: 1;
     background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-  }
-
-  .sm\:p-5 {
-    padding: 1.25rem;
-  }
-
-  .sm\:text-left {
-    text-align: left;
   }
 }
 

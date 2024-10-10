@@ -4,7 +4,7 @@
     <section class="section pt-14 p-5">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-left lg:text-center">
+          <div class="lg:col-7 md:col-9 mb-8 text-left text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
@@ -46,7 +46,7 @@
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm p-6 {{ if (modBool $i 2) }}bg-grey{{ end }}">
       <div class="container">
-        <div class="row items-center justify-between">
+        <div class="row items-center justify-between text-center">
           <div
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
@@ -89,7 +89,7 @@
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section">
+      <section class="section pb-0">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto text-center">
@@ -101,6 +101,10 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="section bg-grey pt-4">
+        <div class="container">
           <div class="row">
             <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
               {{ range .Params.testimonials }}
