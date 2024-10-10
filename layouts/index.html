@@ -1,10 +1,10 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14 pb-5">
+    <section class="section pt-14 p-5">
       <div class="container">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
+          <div class="lg:col-7 md:col-9 mb-8 text-left lg:text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
@@ -36,7 +36,7 @@
     <div class="container mt-10">
       <div class="row">
         <div class="md:col-10 lg:col-8 xl:col-6 mx-auto text-center">
-          <h2 class="bg-theme-light">
+          <h2 class="bg-theme-light p-3 rounded-t-lg">
             What we offer?
           </h2>
         </div>
@@ -92,8 +92,8 @@
       <section class="section">
         <div class="container">
           <div class="row">
-            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-              <h2 class="mb-4 bg-theme-light">
+            <div class="md:col-10 lg:col-8 xl:col-6 mx-auto text-center">
+              <h2 class="bg-theme-light p-3 rounded-t-lg">
                 {{ .Title | markdownify }}
               </h2>
               <p>
@@ -104,19 +104,17 @@
           <div class="row">
             <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
               {{ range .Params.testimonials }}
-                <div class="bg-white-bordered rounded-lg p-4">
+                <div class="bg-white-bordered rounded-lg p-10">
                   <div class="items-center text-center">
-                    <div class="ml-4">
-                      <div class="flex text-dark dark:text-white justify-center items-center">
+                    <div class="flex text-dark dark:text-white justify-center items-center">
                       {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Alt" .name) }}
                     </div>
-                      <h3 class="h5 font-primary font-semibold">
-                        {{ .name }}
-                      </h3>
-                      <p class="text-dark ">
-                        {{ .designation | markdownify }}
-                      </p>
-                    </div>
+                    <h3 class="h5 font-primary font-semibold">
+                      {{ .name }}
+                    </h3>
+                    <p class="text-dark ">
+                      {{ .designation | markdownify }}
+                    </p>
                   </div>
                   <blockquote class="mt-8 text-center">
                     {{ .content | markdownify }}

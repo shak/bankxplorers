@@ -1889,11 +1889,12 @@ input#nav-toggle:checked ~ #nav-menu {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
 .border-b {
   border-bottom-width: 1px;
-}
-.border-t {
-  border-top-width: 1px;
 }
 .border-border {
   --tw-border-opacity: 1;
@@ -1933,8 +1934,23 @@ input#nav-toggle:checked ~ #nav-menu {
 .fill-current {
   fill: currentColor;
 }
+.p-10 {
+  padding: 2.5rem;
+}
+.p-12 {
+  padding: 3rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
 .p-4 {
   padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .p-6 {
   padding: 1.5rem;
@@ -1978,10 +1994,6 @@ input#nav-toggle:checked ~ #nav-menu {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
 .py-\[2\.5px\] {
   padding-top: 2.5px;
   padding-bottom: 2.5px;
@@ -2001,11 +2013,23 @@ input#nav-toggle:checked ~ #nav-menu {
 .pb-6 {
   padding-bottom: 1.5rem;
 }
+.pl-4 {
+  padding-left: 1rem;
+}
+.pr-4 {
+  padding-right: 1rem;
+}
 .pt-14 {
   padding-top: 3.5rem;
 }
+.pt-6 {
+  padding-top: 1.5rem;
+}
 .pt-7 {
   padding-top: 1.75rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;
@@ -2961,7 +2985,8 @@ input#nav-toggle:checked ~ #nav-menu {
   background-color: #c7f48c; }
 
 .bg-white-bordered {
-  background-color: white; }
+  background-color: white;
+  border: 1px #ccc solid; }
 
 .bg-grey {
   background-color: #f9f9f9; }
@@ -3108,6 +3133,14 @@ input#nav-toggle:checked ~ #nav-menu {
     --tw-bg-opacity: 1;
     background-color: rgb(254 202 202 / var(--tw-bg-opacity));
   }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
 }
 
 @media (min-width: 768px) {
@@ -3189,6 +3222,10 @@ input#nav-toggle:checked ~ #nav-menu {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-center {
+    text-align: center;
   }
 
   .lg\:text-right {
