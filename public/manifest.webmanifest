@@ -1,6 +1,6 @@
 {
-  "name": "bankXplorers",
-  "short_name": "bankXplorers",
+  "name": "bankxplorers",
+  "short_name": "bankxplorers",
   "lang": "en-us",
   "display": "fullscreen",
   "orientation" : "portrait",
@@ -20,33 +20,33 @@
   
   "icons": [
     {
-      "src": "/images/favicon_hu14006083726199764313.png",
+      "src": "/images/favicon_hu9139309732491575828.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu17199059367861881893.png",
+      "src": "/images/favicon_hu14393772426598364978.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu10100523728445717881.png",
+      "src": "/images/favicon_hu11288600238072944529.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu8446538515742904747.png",
+      "src": "/images/favicon_hu11779201415433653689.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu5922712750813982048.png",
+      "src": "/images/favicon_hu9856132906306288002.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/favicon_hu9493918256868181216.png",
+      "src": "/images/favicon_hu9007398558738686164.png",
       "sizes": "512x512",
       "type": "image/png"
     }
