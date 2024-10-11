@@ -1750,17 +1750,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .m-3 {
   margin: 0.75rem;
 }
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -3062,11 +3054,6 @@ input#nav-toggle:checked ~ #nav-menu {
     width: 66.66666666666667%;
   }
 
-  .lg\:col-9 {
-    flex: 0 0 auto;
-    width: 75%;
-  }
-
   .lg\:col-10 {
     flex: 0 0 auto;
     width: 83.33333333333334%;
@@ -3168,10 +3155,6 @@ input#nav-toggle:checked ~ #nav-menu {
     margin-left: 0px;
   }
 
-  .lg\:mt-0 {
-    margin-top: 0px;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -3209,10 +3192,6 @@ input#nav-toggle:checked ~ #nav-menu {
 
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-right {
-    text-align: right;
   }
 
   .lg\:text-h1 {
