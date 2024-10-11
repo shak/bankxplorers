@@ -47,6 +47,6 @@ weight = 2
 
 # footer menu
 # [[footer]]
-# name = "About"
-# url = "/about"
+# name = "for inquiries: bankxplorers@gmail.com"
+# url = "mailto:hamedahamjad@gmail.com"
 # weight = 1

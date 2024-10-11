@@ -890,6 +890,10 @@ select {
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-top: var(--bs-gutter-y);
 }
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666666666667%;
+}
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
@@ -1750,9 +1754,17 @@ input#nav-toggle:checked ~ #nav-menu {
 .m-3 {
   margin: 0.75rem;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -1984,6 +1996,10 @@ input#nav-toggle:checked ~ #nav-menu {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .py-\[2\.5px\] {
   padding-top: 2.5px;
@@ -3054,6 +3070,11 @@ input#nav-toggle:checked ~ #nav-menu {
     width: 66.66666666666667%;
   }
 
+  .lg\:col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
   .lg\:col-10 {
     flex: 0 0 auto;
     width: 83.33333333333334%;
@@ -3065,6 +3086,11 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 @media (min-width: 1280px) {
+
+  .xl\:col-4 {
+    flex: 0 0 auto;
+    width: 33.333333333333336%;
+  }
 
   .xl\:col-6 {
     flex: 0 0 auto;
@@ -3155,6 +3181,10 @@ input#nav-toggle:checked ~ #nav-menu {
     margin-left: 0px;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3192,6 +3222,10 @@ input#nav-toggle:checked ~ #nav-menu {
 
   .lg\:text-left {
     text-align: left;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 
   .lg\:text-h1 {
