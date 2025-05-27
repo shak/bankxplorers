@@ -28,7 +28,7 @@ features = [
   "Taxonomies",
 ]
 
-[author]
+[params.author]
 name = "Zeon Studio"
 homepage = "https://zeon.studio"
 

@@ -4,7 +4,7 @@
   class=""
   lang="en-us"
   itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -30,11 +30,11 @@
 
 
 
-<link rel="shortcut icon" href="/images/favicon_hu3489615948781621652.png" type="image/x-icon">
-<link rel="icon" href="/images/favicon_hu3489615948781621652.png" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu12195273782943224315.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu3489615948781621652.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu9244329132202183997.png">
+<link rel="shortcut icon" href="/images/favicon_hu_60b869fead6cc405.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon_hu_60b869fead6cc405.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon_hu_3c70d855162bd337.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon_hu_60b869fead6cc405.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon_hu_269d7218f786e45.png">
 
 
 
@@ -72,6 +72,7 @@
 
 
 
+  <base href="//localhost:1313/elements/" />
 
 
 
@@ -158,8 +159,8 @@
       
       
       
-        <meta property="og:image" content="/images/about.png" />
-        <meta name="twitter:image" content="/images/about.png" />
+        <meta property="og:image" content="//localhost:1313/images/about.png" />
+        <meta name="twitter:image" content="//localhost:1313/images/about.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -186,13 +187,15 @@
 <meta property="og:title" content="Elements" />
 <meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/elements/" />
+<meta property="og:url" content="//localhost:1313/elements/" />
 
 
 <meta name="twitter:title" content="Elements" />
 <meta name="twitter:description" content="This is meta description" />
 
 
+
+  <meta name="twitter:creator" content="@hamedah amjad" />
 
 
 
@@ -213,7 +216,7 @@
 
 
 <script>
-  let indexURL = "/searchindex.json";
+  let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -310,8 +313,8 @@
 
 
 <link
-  href="/css/style.min.247091b700e54a9ffdde423b6c8490296cc9b2ae23fa1c446fc7455467013bd2.css"
-  integrity="sha256-JHCRtwDlSp/93kI7bISQKWzJsq4j+hxEb8dFVGcBO9I="
+  href="/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
@@ -319,8 +322,8 @@
   defer
   async
   rel="stylesheet"
-  href="/css/style-lazy.min.5d85e889fd5f5b28f9387aeade847fcb0a66d76a99a985ab4cdae3d37cf21557.css"
-  integrity="sha256-XYXoif1fWyj5OHrq3oR/ywpm12qZqYWrTNrj03zyFVc="
+  href="/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -334,7 +337,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -394,7 +408,8 @@
 
   
   
-    
+      
+      
     
     
     
@@ -421,9 +436,9 @@
       class="img"
       width="160"
       height="32"
-      src="/images/logo_hu14210253137417833603.webp"
+      src="/images/logo_hu_19b7452a4407f307.webp"
       alt="bankxplorers"
-      onerror="this.onerror=null;this.src='\/images\/logo_hu5251676138742289374.png'" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_97fcb5e391e74022.png'" />
   
   
 
@@ -492,14 +507,6 @@
 
       
 
-
-
-
-
-
-
-
-
       
 
 
@@ -524,7 +531,7 @@
   <section>
   <div class="container text-center">
     <div
-      class="from-body to-theme-light   rounded-2xl bg-gradient-to-b px-8 py-14">
+      class="from-body to-light dark:from-darkmode-body dark:to-darkmode-light rounded-2xl bg-gradient-to-b px-8 py-14">
       <h1>Elements</h1>
       
 
@@ -533,7 +540,7 @@
 
 <ul class="mt-6 inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-primary " href="/">
+    <a class="text-primary dark:text-darkmode-primary" href="//localhost:1313/">
       Home
     </a>
     <span class="inlin-block mr-1">/</span>
@@ -544,7 +551,7 @@
     
   
   <li>
-    <span class="text-primary ">
+    <span class="text-primary dark:text-darkmode-primary">
       Elements
     </span>
   </li>
@@ -625,48 +632,19 @@
 
 
 
-
+ 
   
-
   
-
+ 
   
-
-
-
   
-
+ 
   
-
   
+ 
 
 
-
-  
-
-  
-
-  
-
-
-
-  
-
-  
-
-  
-
-
-
-  
-
-  
-
-  
-
-
-
-<a href="/" class="btn btn-primary "  rel="" >Button</a>
+<a href="//localhost:1313/" class="btn btn-primary "  rel="" >Button</a>
 
 <hr>
 <h3 id="link">Link</h3>
@@ -782,19 +760,14 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+
+  
+
+
 <div class="notice note">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="22" height="22" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
       </svg><p>Note</p>
   </div>
   <div class="notice-body"><p>This is a simple note.</p></div>
@@ -807,18 +780,15 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+
+  
+
+
 <div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
       </svg><p>Tip</p>
   </div>
   <div class="notice-body"><p>This is a simple tip.</p></div>
@@ -831,19 +801,14 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+
+  
+
+
 <div class="notice info">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 18 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M9.16109 0.993016C9.97971 1.03952 10.6611 1.42989 11.0721 2.22339L17.7981 15.8014C18.4502 17.1739 17.4403 19.0208 15.7832 19.0474H2.23859C0.730337 19.0234 -0.507163 17.3108 0.231587 15.7864L7.08321 2.20877C7.21146 1.96502 7.26996 1.89452 7.38059 1.76664C7.82534 1.25102 8.31171 0.975016 9.16109 0.993016ZM9.05046 2.49189C8.79284 2.50464 8.55696 2.64902 8.42834 2.87327C6.06134 7.36539 3.77946 11.9036 1.56546 16.4734C1.36071 16.9328 1.71209 17.5223 2.22621 17.547C6.74871 17.6201 11.2731 17.6201 15.7956 17.547C16.2925 17.523 16.666 16.953 16.459 16.4783C14.2866 11.9093 12.0471 7.37102 9.72171 2.87814C9.58446 2.63402 9.38309 2.48739 9.05046 2.49189Z"
-          fill="currentColor" />
-        <path
-          d="M9.61323 13.2153H8.35773L8.21973 7.04688H9.75723L9.61323 13.2153ZM8.17773 15.1015C8.17773 14.8731 8.25161 14.6841 8.39973 14.5338C8.54823 14.3838 8.75036 14.3084 9.00648 14.3084C9.26298 14.3084 9.46511 14.3838 9.61323 14.5338C9.76136 14.6841 9.83561 14.8731 9.83561 15.1015C9.83561 15.3216 9.76323 15.5057 9.61923 15.6539C9.47486 15.802 9.27086 15.8762 9.00648 15.8762C8.74211 15.8762 8.53811 15.802 8.39373 15.6539C8.24973 15.5057 8.17773 15.3216 8.17773 15.1015Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
       </svg><p>Info</p>
   </div>
   <div class="notice-body"><p>This is a simple info.</p></div>
@@ -856,18 +821,14 @@ example.com (but not on Github, for example).</p>
 
 
 
+
+
+  
+
+
 <div class="notice warning">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M10 0C15.522 0 20 4.478 20 10C20 15.522 15.522 20 10 20C4.478 20 0 15.522 0 10C0 4.478 4.478 0 10 0ZM10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18C14.411 18 18 14.411 18 10C18 5.589 14.411 2 10 2ZM12.293 6.293L13.707 7.707L11.414 10L13.707 12.293L12.293 13.707L10 11.414L7.707 13.707L6.293 12.293L8.586 10L6.293 7.707L7.707 6.293L10 8.586L12.293 6.293Z"
-          fill="currentColor" />
+  <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
       </svg><p>Warning</p>
   </div>
   <div class="notice-body"><p>This is a simple warning.</p></div>
@@ -1053,31 +1014,30 @@ example.com (but not on Github, for example).</p>
 <hr>
 <h3 id="blockquote">Blockquote</h3>
 <blockquote>
-<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.</p>
-</blockquote>
+<p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.</p></blockquote>
 <hr>
 <h3 id="tables">Tables</h3>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Tables</th>
+          <th>Tables</th>
           <th style="text-align: center">Are</th>
           <th style="text-align: right">Cool</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">col 3 is</td>
+          <td>col 3 is</td>
           <td style="text-align: center">right-aligned</td>
           <td style="text-align: right">$1600</td>
       </tr>
       <tr>
-          <td style="text-align: left">col 2 is</td>
+          <td>col 2 is</td>
           <td style="text-align: center">centered</td>
           <td style="text-align: right">$12</td>
       </tr>
       <tr>
-          <td style="text-align: left">zebra stripes</td>
+          <td>zebra stripes</td>
           <td style="text-align: center">are neat</td>
           <td style="text-align: right">$1</td>
       </tr>
@@ -1176,9 +1136,9 @@ example.com (but not on Github, for example).</p>
             class="img img-fluid img-center"
             width="1096"
             height="480"
-            src="/images/image-placeholder_hu9204186235374062168.png"
+            src="/images/image-placeholder_hu_89e8f8217304aa93.png"
             alt="alter-text"
-            onerror="this.onerror='null';this.src='\/images\/image-placeholder_hu9204186235374062168.png'" />
+            onerror="this.onerror='null';this.src='\/images\/image-placeholder_hu_89e8f8217304aa93.png'" />
       
     
 
@@ -1221,7 +1181,7 @@ example.com (but not on Github, for example).</p>
 
 
   <strong style="display: inline-block; margin-top:15px">
-    Nothing to show in [/<span style="color:red">
+    Nothing to show in [//localhost:1313/<span style="color:red">
       images/gallery
     </span>
     ] or folder does not exist
@@ -1255,7 +1215,7 @@ example.com (but not on Github, for example).</p>
     
       
       <strong style="display: inline-block; margin-top:15px">
-        Nothing to show in [/<span style="color:red">
+        Nothing to show in [//localhost:1313/<span style="color:red">
           images/gallery
         </span>
         ] or folder does not exist
@@ -1272,12 +1232,8 @@ example.com (but not on Github, for example).</p>
 
 <hr>
 <h3 id="youtube-video">Youtube video</h3>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ResipmZmpDU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ResipmZmpDU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
 <hr>
@@ -1376,7 +1332,8 @@ example.com (but not on Github, for example).</p>
 
   
   
-    
+      
+      
     
     
     
@@ -1403,9 +1360,9 @@ example.com (but not on Github, for example).</p>
       class="img"
       width="160"
       height="32"
-      src="/images/logo_hu14210253137417833603.webp"
+      src="/images/logo_hu_19b7452a4407f307.webp"
       alt="bankxplorers"
-      onerror="this.onerror=null;this.src='\/images\/logo_hu5251676138742289374.png'" />
+      onerror="this.onerror=null;this.src='\/images\/logo_hu_97fcb5e391e74022.png'" />
   
   
 
@@ -1505,23 +1462,20 @@ example.com (but not on Github, for example).</p>
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-LYz2ORPp3CKELKSrSPEzjJAKI5LV0o9T7zr7INnVxYA="
-  src="/js/script.min.2d8cf63913e9dc22842ca4ab48f1338c900a2392d5d28f53ef3afb20d9d5c580.js"></script>
+  integrity=""
+  src="/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-7PdzUKQpBOTSfZCJu&#43;fRjS4Hag6xEgUt1gKp3UVJL8M="
-  src="/js/script-lazy.min.ecf77350a42904e4d27d9089bbe7d18d2e076a0eb112052dd602a9dd45492fc3.js"></script>
+  integrity=""
+  src="/js/script-lazy.js"></script>
 
 
 
