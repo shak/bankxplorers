@@ -70,6 +70,8 @@
                 <h1 class="mb-5" data-aos="fade-up">
                   {{ .title | markdownify }}
                 </h1>
+                <div>{{ .texts | markdownify}}</div>
+                {{ if .button_enable }}
                 <a
                   href="{{ .button_link }}"
                   class="btn btn-primary"
@@ -77,8 +79,9 @@
                   data-aos-delay="200"
                   >{{ .button }}</a
                 >
+                {{ end }}
               </div>
-            </div>
+            </div>    
 
             {{ with .image }}
               <div class="banner-image" data-aos="fade-up" data-aos-delay="300">
