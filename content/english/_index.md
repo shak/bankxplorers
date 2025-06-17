@@ -18,7 +18,7 @@ brands_carousel:
 # features
 features:
   enable: true
-  subtitle: "At a glance"
+  subtitle: ""
   title: "Why join us?"
   description: ""
   features_blocks:
