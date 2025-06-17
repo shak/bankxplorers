@@ -14,41 +14,32 @@ brands_carousel:
   brand_images:
     - "images/brands/01-colored.png"
     - "images/brands/02-colored.png"
-    - "images/brands/04-colored.png"
-    - "images/brands/03-colored.png"
-    - "images/brands/05-colored.png"
-    - "images/brands/06-colored.png"
-    - "images/brands/04-colored.png"
-    - "images/brands/02-colored.png"
-    - "images/brands/01-colored.png"
-    - "images/brands/06-colored.png"
-    - "images/brands/05-colored.png"
 
 # features
 features:
   enable: true
-  subtitle: "Special Features"
-  title: "Elements to <br> get you started"
-  description: "Lorem ipsum dolor sit amet, consecteturre adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  subtitle: "At a glance"
+  title: "Why join us?"
+  description: ""
   features_blocks:
-    - icon: "las la-lock"
-      title: "Updated Security"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-    - icon: "las la-magnet"
-      title: "Magnetic Turning"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-    - icon: "las la-tachometer-alt"
-      title: "Secured &amp; upto date"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-    - icon: "las la-link"
-      title: "Instant Link Shareing"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-    - icon: "las la-lock"
-      title: "Updated Security"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
-    - icon: "las la-magnet"
-      title: "Magnetic Turning"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+    - icon: "las la-handshake"
+      title: "Empowerment"
+      content: "Gain confidence in your money management and personal banking skills, to take the first step towards financial independence"
+    - icon: "las la-lightbulb"
+      title: "Expert Insights"
+      content: "Firsthand experiences from the banking industry, including valuable tips on managing finances and navigating banking services"
+    - icon: "las la-user"
+      title: "Interactive Learning"
+      content: "Hands-on activities, discussions and simulations that make complex concepts relatable"
+    # - icon: "las la-link"
+    #   title: "Instant Link Shareing"
+    #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+    # - icon: "las la-lock"
+    #   title: "Updated Security"
+    #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
+    # - icon: "las la-magnet"
+    #   title: "Magnetic Turning"
+    #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
 
 # intro_video
 intro_video:
@@ -64,20 +55,25 @@ intro_video:
 how_it_works:   
   enable: true
   block:
-  - subtitle: "Primary Speciality"
-    title: "You Will Not miss Your All misunderstandings"
-    description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the."
+  - subtitle: "What we offer?"
+    title: "Banking Basics"
+    description: "Ever wondered how banking helps with managing your personal finances? This session will help you dive into the world of banking, discovering different types of accounts, bank statements, interest on savings, budgeting and much more."
     image: "images/features-01.png"
 
-  - subtitle: "Secondary Speciality"
-    title: "Say hello to no-code The Advance Creation"
-    description: "From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code."
+  - subtitle: "What we offer?"
+    title: "Borrowing, Interest and Credit Scores"
+    description: "Learn all about different types of borrowing, understand how credit cards work, what interest rates really mean, and how credit scores impact your financial journey."
     image: "images/features-02.png"
+
+  - subtitle: "What we offer?"
+    title: "Borrowing, Interest and Credit Scores"
+    description: "Learn all about different types of borrowing, understand how credit cards work, what interest rates really mean, and how credit scores impact your financial journey."
+    image: "images/features-03.png"
 
 
 # testimonials
 testimonials:
-  enable: true
+  enable: false
   subtitle: "Our Testimonial"
   title: "Don't take our word for it"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."

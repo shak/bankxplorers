@@ -1,5 +1,5 @@
 - id: socials
-  translation: Socials
+  translation: ""
 
 - id: social_media
   translation: Social Media
@@ -11,10 +11,10 @@
   translation: Message
 
 - id: quick_links
-  translation: Quick Links
+  translation: ""
 
 - id: location_contact
-  translation: Location & Contact
+  translation: Contact & Social
 
 - id: recent_posts
   translation: Recent Posts by

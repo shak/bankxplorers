@@ -3,50 +3,65 @@
 # main menu
 [[main]]
 name = "Home"
-url = "/"
+url = ""
 weight = 1
 
 [[main]]
 name = "About"
-url = "/about"
+url = "about/"
 weight = 2
 
+
 # [[main]]
-# name = "Elements"
-# url = "/elements"
+# name = "Blog"
+# url = "blog/"
 # weight = 3
 
 # [[main]]
 # weight = 4
 # name = "Pages"
+# hasChildren = true
+
+#   [[main]]
+#   parent = "Pages"
+#   name = "Blog Details"
+#   url = "blog/post-1/"
+#   weight = 1
+
+
+#   [[main]]
+#   parent = "Pages"
+#   name = "Terms & Conditions"
+#   url = "terms-and-conditions/"
+#   weight = 2
 
 # [[main]]
-# parent = "Pages"
-# name = "Blog"
-# url = "/blog"
-
-# [[main]]
-# parent = "Pages"
 # name = "Contact"
-# url = "/contact"
+# url = "contact/"
+# weight = 5
 
-# [[main]]
-# parent = "Pages"
-# name = "Authors"
-# url = "/authors"
 
-# [[main]]
-# parent = "Pages"
-# name = "Categories"
-# url = "/categories"
 
-# [[main]]
-# parent = "Pages"
-# name = "404 Page"
-# url = "/404"
+
+
 
 # footer menu
 # [[footer]]
-# name = "for inquiries: bankxplorers@gmail.com"
-# url = "mailto:hamedahamjad@gmail.com"
+# name = "About"
+# url = "about/"
 # weight = 1
+
+# [[footer]]
+# name = "Blog"
+# url = "blog/"
+# weight = 2
+
+# [[footer]]
+# name = "Blog Details"
+# url = "blog/post-1/"
+# weight = 3
+
+# [[footer]]
+# name = "Terms & Conditions"
+# url = "terms-and-conditions/"
+# weight = 4

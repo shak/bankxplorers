@@ -1,52 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/andromeda/site/</loc>
-    <lastmod>2023-01-14T00:00:00-05:00</lastmod>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2023-01-14T00:00:00+04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/andromeda/site/terms-and-conditions/</loc>
-    <lastmod>2023-01-14T00:00:00-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/</loc>
-    <lastmod>2021-07-14T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-1/</loc>
-    <lastmod>2021-07-14T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-2/</loc>
-    <lastmod>2021-07-13T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-3/</loc>
-    <lastmod>2021-07-12T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-4/</loc>
-    <lastmod>2021-07-11T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-5/</loc>
-    <lastmod>2021-07-10T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-6/</loc>
-    <lastmod>2021-07-09T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-7/</loc>
-    <lastmod>2021-07-08T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/blog/post-8/</loc>
-    <lastmod>2021-07-07T00:00:00-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/author/abdullah-al-shifat/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/author/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/author/derick-barker/</loc>
-  </url><url>
-    <loc>http://localhost:1313/andromeda/site/tags/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url>
 </urlset>
