@@ -66,8 +66,8 @@ how_it_works:
     image: "images/features-02.png"
 
   - subtitle: "What we offer?"
-    title: "Borrowing, Interest and Credit Scores"
-    description: "Learn all about different types of borrowing, understand how credit cards work, what interest rates really mean, and how credit scores impact your financial journey."
+    title: "Navigating the digital world safely and securely"
+    description: "Scammers are getting smarter, but so are we! Learn how to protect your personal information, recognise phishing scams, and secure your accounts with smart practices. We’ll arm you with the tools you need to be a savvy digital banker!"
     image: "images/features-03.png"
 
 
