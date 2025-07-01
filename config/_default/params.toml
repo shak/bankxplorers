@@ -49,8 +49,8 @@ link = "https://gethugothemes.com/products/andromeda/"
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Hugo", "GetHugoThemes", "Themefisher"]
-description = "Software and SAAS Landing Hugo Theme"
-author = "Gethugothemes"
+description = "Banking & Literacy Workshops across UAE"
+author = "Bankxplorers LLC"
 image = "images/og-image.jpg" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
