@@ -42,14 +42,14 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = false
 label = "Buy Premium"
-link = "https://gethugothemes.com/products/andromeda/"
+link = "https://gethugothemes.com/products/andromeda/" 
 
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Hugo", "GetHugoThemes", "Themefisher"]
-description = "Banking & Literacy Workshops across UAE"
+keywords = ["Financial Literacy", "Banking", "Education"]
+description = "Banking & financial literacy workshops across UAE"
 author = "Bankxplorers LLC"
 image = "images/og-image.jpg" # this image will be used as fallback if a page has no image of its own
 
