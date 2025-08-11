@@ -1,5 +1,5 @@
 ---
-title: "F.A.Q"
+title: "FAQ"
 date: "2025-01-14"
 layout: "faqs"
 draft: false

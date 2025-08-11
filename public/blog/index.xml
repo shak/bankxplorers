@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Blogs on Bankxplorers</title>
     <link>//localhost:1313/blog/</link>
     <description>Recent content in Blogs on Bankxplorers</description>
-=======
-    <title>Blog on Bankxplorers</title>
-    <link>//localhost:1313/blog/</link>
-    <description>Recent content in Blog on Bankxplorers</description>
->>>>>>> 3298526 (adds draft ecs page)
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
