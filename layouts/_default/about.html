@@ -6,14 +6,35 @@
       <section class="section-sm">
         <div class="container position-relative">
           <div class="row justify-content-center align-items-center">
-            <div class="col-md-10" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
               <div class="section-title">
                 <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
                 <h2 class="title">{{ .title | markdownify }}</h2>
                 <p>{{ .description | markdownify }}</p>
               </div>
             </div>
-            
+            <div
+              class="col-lg-5 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="150">
+              <div class="about-image">
+                <div class="block">
+                  {{ partial "image.html" (dict "Src" .image "Alt" "about-image" "Size" "464x") }}
+
+                  <div class="has-circle">
+                    <span class="circle-4 ratio-20 fill"></span>
+                    <span class="circle-5 ratio-47"></span>
+                  </div>
+                </div>
+
+                <div class="has-circle">
+                  <span class="circle-1 ratio-85 fill"></span>
+                  <span class="circle-2 ratio-37"></span>
+                  <span class="circle-3 ratio-20 fill"></span>
+                  <span class="circle-6 ratio-85 fill"></span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -34,8 +55,8 @@
 
             {{ range .block }}
               <div class="col-xl-5 col-lg-6">
-                <div class="px-0 px-md-5 mt-4">
-                  <h4 class="text-capitalize">{{ .title | markdownify }}</h4>
+                <div class="text-center px-0 px-md-5 mt-4">
+                  <h3 class="text-capitalize">{{ .title | markdownify }}</h3>
                   <p>{{ .content | markdownify }}</p>
                 </div>
               </div>
@@ -262,5 +283,5 @@
       </section>
     {{ end }}
   {{ end }}
-
 {{ end }}
+
