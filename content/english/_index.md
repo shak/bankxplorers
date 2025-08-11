@@ -84,35 +84,35 @@ testimonials:
     - quote: "I learned so much and now I know how to save money and use it correctly"
       name: "D"
       designation: "Year 8"
-      image: "images/user-img/05-i.jpg"
+      image: "images/user-img/4.jpg"
 
     - quote: "I really liked the worksheets (bank statements) and how we had to improvise if an emergency happens"
       name: "Y"
       designation: "Year 8"
-      image: "images/user-img/06-i.jpg"
+      image: "images/user-img/1.jpg"
 
     - quote: "The workshop was very informative and the activities helped me understand more about banking as a whole since it was a foreign subject to me. Overall, very useful and informative and it would be beneficial for me friends to do it"
       name: "L"
       designation: "Year 8"
-      image: "images/user-img/07-i.jpg"
+      image: "images/user-img/2.jpg"
 
     - quote: "I enjoyed using the dummy cards and managing three different accounts. It was a new experience for me, and I liked learning how to handle mandatory expenses"
       name: "A"
       designation: "Year 8"
-      image: "images/user-img/08-i.jpg"
+      image: "images/user-img/5.jpg"
 
     - quote: "The role playing activities made it easy to understand things like interest rates. It was like a game, but I learned a lot!"
       name: "S"
       designation: "Year 8"
-      image: "images/user-img/09-i.jpg"
+      image: "images/user-img/1.jpg"
 
     - quote: "I’ve always wanted to use a debit card. Trying out a pretend one in the workshop was fun and helped me understand how to actually use it"
       name: "K"
       designation: "Year 8"
-      image: "images/user-img/10-i.jpg"
+      image: "images/user-img/3.jpg"
 
     - quote: "The phishing email activity was really helpful. I learned to spot signs like strange links and urgent language"
       name: "A"
       designation: "Year 8"
-      image: "images/user-img/10-i.jpg"
+      image: "images/user-img/4.jpg"
 ---
