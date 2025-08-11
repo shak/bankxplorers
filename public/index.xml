@@ -12,9 +12,9 @@
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F.A.Q</title>
-      <link>//localhost:1313/terms-and-conditions/</link>
+      <link>//localhost:1313/faqs/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0400</pubDate>
-      <guid>//localhost:1313/terms-and-conditions/</guid>
+      <guid>//localhost:1313/faqs/</guid>
       <description>&lt;h3 id=&#34;q-why-should-i-join-this-workshop&#34;&gt;Q: Why should I join this workshop?&lt;/h3&gt;&#xA;&lt;p&gt;Because it’s your chance to explore how money works in the real world through activities, games, and challenges designed just for students your age.&lt;/p&gt;</description>
     </item>
     <item>

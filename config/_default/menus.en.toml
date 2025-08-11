@@ -35,7 +35,7 @@ weight = 4
 
 [[main]]
 name = "F.A.Q"
-url = "terms-and-conditions/"
+url = "faqs/"
 weight = 3
 
 # [[main]]

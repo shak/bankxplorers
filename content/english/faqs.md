@@ -1,10 +1,10 @@
 ---
 title: "F.A.Q"
 date: "2025-01-14"
-layout: "terms-and-conditions"
+layout: "faqs"
 draft: false
 
-description: "💬 FAQ – Quick Answers for Curious Minds"
+description: "💬 Quick Answers for Curious Minds"
 ---
 
 ### Q: Why should I join this workshop?
