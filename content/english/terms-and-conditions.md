@@ -1,44 +1,41 @@
 ---
-title: "Terms & Conditions"
-date: "2023-01-14"
+title: "F.A.Q"
+date: "2025-01-14"
 layout: "terms-and-conditions"
 draft: false
 
-description: "By Using The Service Or Clicking “I Agree”, The User Is Agreeing To Be Bound By This Agreement. If You Are Agreeing To This Agreement On Behalf Of Or For The Benefit Of A Company, Then The User Represents And Warrants That It Has The Necessary Authority To Agree To This Agreement On The Company’s"
+description: "💬 FAQ – Quick Answers for Curious Minds"
 ---
 
-### 1. Definitions
+### Q: Why should I join this workshop?
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number. The personal data we collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our Site, we may collect non-identifying information from you, such as referring URL, browser, operating system, cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, this information alone cannot usually be used to identify you.The term "personal data" does not include any anonymized and aggregated data made on the basis of personal data, which are wholly owned by Conclude.
+Because it’s your chance to explore how money works in the real world through activities, games, and challenges designed just for students your age.
 
-### 2. General Terms
 
-#### Service Provided AS IS:
+### Q: Isn’t this only useful for adults with jobs or bank accounts?
 
-The Service is provided for free during this pilot project, and is provided "as is" with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
+It’s designed especially for students. Even if you’re just starting to get pocket money or thinking about spending online, it’s a chance to explore how money works.
 
-#### Interoperation with Slack:
+### Q: Am I too young to learn about money?
 
-The Service interoperates with Slack.com, and depends on the continuing availability and access to Slack. If for any reason Conclude cannot access or use Slack (including without limitation, change in terms or increase in fees charged by Slack), Conclude may not be able to provide all of the functions of its Service. No refund or credit, if applicable, will be provided for temporary unavailability of Slack (for example, maintenance windows).
+Not at all! You don’t need to be a certain age to get curious about how money works. The sooner you start, the easier it gets. Learning now helps you avoid mistakes and feel confident as you grow.
 
-#### Company Liability:
+### Q: Do I need to be good at maths?
 
-If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions conducted by its designated users of the Service.
+Nope. If you can count, think, and make decisions, you’re all set. This is more about how money works in everyday life than doing calculations.
 
-### 4. Rules of Use
+### Q: Is the workshop just like sitting in a regular lesson?
 
-1. must keep passwords secure and confidential;
-2. are solely responsible for User Data and all activity in their account while using the Service;
-3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Conclude promptly of any such unauthorized access; and
-4. may use the Service only in accordance with Conclude's online user guide and all applicable laws and regulations.
+Nope. it’s way better than that! You’ll be doing fun, interactive activities like teaming up, solving challenges, and trying real world simulations (think managing fake bank accounts and using pretend debit/credit cards). It’s all about learning by doing, not just listening.
 
-#### You must not:
+### Q: Do we get to make our own money choices?
 
-- Enhance or improve User experience, our Site, or our Service.
-- Process transactions.
-- Send emails about our Site or respond to inquiries.
-- As this Privacy Policy and our Terms of Service.
+Yes! You’ll make decisions about spending, saving, and managing accounts in different scenarios. You’ll see the outcomes play out during the session with no real risks.
 
-### 5. Intellectual Property Rights
+### Q: What if I don’t have any money to manage yet?
 
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Conclude transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+No worries! The workshop isn’t about how much money you have. It’s about learning how it all works. Think of it like training for a game: you practice first so you’re ready when the real match starts.
+
+### Q: What if I already know a bit about money?
+
+That’s great! You’ll still get to try new activities, explore real life scenarios, and maybe see money from a different angle.

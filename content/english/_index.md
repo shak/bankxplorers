@@ -73,7 +73,7 @@ how_it_works:
 
 # testimonials
 testimonials:
-  enable: false
+  enable: true
   subtitle: "Our Testimonial"
   title: "Don't take our word for it"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
@@ -81,33 +81,38 @@ testimonials:
   image_right: "images/testimonials-02.png"
 
   testimonials_quotes:
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "I learned so much and now I know how to save money and use it correctly"
+      name: "D"
+      designation: "Year 8"
       image: "images/user-img/05-i.jpg"
 
-    - quote: "Conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "I really liked the worksheets (bank statements) and how we had to improvise if an emergency happens"
+      name: "Y"
+      designation: "Year 8"
       image: "images/user-img/06-i.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "The workshop was very informative and the activities helped me understand more about banking as a whole since it was a foreign subject to me. Overall, very useful and informative and it would be beneficial for me friends to do it"
+      name: "L"
+      designation: "Year 8"
       image: "images/user-img/07-i.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "I enjoyed using the dummy cards and managing three different accounts. It was a new experience for me, and I liked learning how to handle mandatory expenses"
+      name: "A"
+      designation: "Year 8"
       image: "images/user-img/08-i.jpg"
 
-    - quote: "Lorem ipsum dolor ame conseetur. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "The role playing activities made it easy to understand things like interest rates. It was like a game, but I learned a lot!"
+      name: "S"
+      designation: "Year 8"
       image: "images/user-img/09-i.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
+    - quote: "I’ve always wanted to use a debit card. Trying out a pretend one in the workshop was fun and helped me understand how to actually use it"
+      name: "K"
+      designation: "Year 8"
+      image: "images/user-img/10-i.jpg"
+
+    - quote: "The phishing email activity was really helpful. I learned to spot signs like strange links and urgent language"
+      name: "A"
+      designation: "Year 8"
       image: "images/user-img/10-i.jpg"
 ---
