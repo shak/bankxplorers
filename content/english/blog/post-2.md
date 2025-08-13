@@ -1,23 +1,34 @@
 ---
-date: "2021-07-13"
-title: "Why you should launch your product in phases not after done"
+date: "2025-03-02"
+title: "Money in Action: How Everyday Choices Help Students Learn About Money"
 image: "images/blog/02.jpg"
-author: "derick-barker"
+author: "hamedah"
 draft: false
 ---
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+When we think of financial education, we think: lessons, worksheets, or classroom discussions. However for students, some of the most powerful money lessons happen in real time, in the middle of everyday life.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+Whether it’s buying lunch at the canteen, managing birthday money, or spending in online games, these small moments quietly shape how young people understand and interact with money.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+Let’s check out some everyday money moments, and why they matter.
 
-> Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
->
-> <cite>!Alexender Smith</cite>
+#### 1. The School Canteen: Real Time Decision Making
+The daily canteen visit might seem like a small routine, but it’s a built in budgeting challenge. With limited money, students make decisions about what to buy, what to skip, and how to make their money last longer.
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+They’re learning to prioritise, compare value, and deal with limited resources, all in under 10 minutes.
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+#### 2. Birthday Money: Bonus Income, Big Lessons
+Getting money for birthdays or special occasions feels exciting. It’s extra cash that’s all theirs to spend or save. Their choice to spend, save or share not only gives them confidence in decision making but is also a great starting point for future money habits.
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+#### 3. Online Games and In App Purchases
+Skins, upgrades, season passes: these words are everywhere! In game spending is fast and easy, often done without thinking. Hence these moments need our attention. If guided correctly, students can start to spot marketing tactics, set their own limits, and think more carefully about what’s really worth paying for.
+
+#### 4. Fundraising or Contributions
+Working together with friends to raise cash for a charity, purchase a collective gift or to organise a school event are all important lessons. Students learn firsthand how working together can make big things happen, that aren’t often possible alone. Hence making it a great opportunity to learn teamwork, build smart money habits and connect money to real life goals.
+
+#### Why These Moments Matter
+Money lessons aren’t just for classrooms: they happen all day, every day. When students make small money choices, they’re actually levelling up their skills without even realising it.
+
+Every choice, from snacks to saving, is a secret training for the money smart pros they’re becoming.
+
+So next time you’re spending or saving, remember this: you’re not just handling money, you’re getting ready to rock the real world. And honestly, that’s way cooler than any worksheet!

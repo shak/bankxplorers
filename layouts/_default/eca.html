@@ -3,23 +3,30 @@
 
   {{ with .Params.who_we_are }}
     {{ if .enable }}
-      <section class="section-sm">
-        <div class="container position-relative">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-10" data-aos="fade-up">
-              <div class="section-title">
-                <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
-                <h2 class="title">{{ .title | markdownify }}</h2>
-                <p>{{ .description | markdownify }}</p>
-              </div>
+      <div class="container position-relative mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-10" data-aos="fade-up">
+            <div class="section-title">
+              <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
+              <h2 class="title">{{ .title | markdownify }}</h2>
+              <p>{{ .description | markdownify }}</p>
             </div>
-            
           </div>
         </div>
-      </section>
+      </div>
     {{ end }}
   {{ end }}
 
+    <div class="container position-relative">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-10" data-aos="fade-up">
+          <div class="content">
+            <blockquote>This is an informative block</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  
   {{ with .Params.what_we_do }}
     {{ if .enable }}
       <section data-aos="fade-in">
@@ -34,9 +41,15 @@
 
             {{ range .block }}
               <div class="col-xl-5 col-lg-6 m-4">
-                <div class="px-0 px-md-5 mt-4 text-center module-box">
+                <div class="px-4 px-md-5 mt-4 text-center module-box">
                   <h4 class="text-capitalize">{{ .title | markdownify }}</h4>
                   <p>{{ .content | markdownify }}</p>
+                  <dl>
+                    {{ range .items}}
+                      <dt>{{ .title | markdownify }}</dt>
+                      <dd>{{ .content | markdownify }}</dd><br>
+                    {{ end }}
+                  </dl>
                 </div>
               </div>
             {{ end }}

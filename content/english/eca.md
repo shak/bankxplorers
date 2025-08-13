@@ -7,8 +7,8 @@ draft: false
 who_we_are:
   enable: true
   subtitle: ""
-  title: "💰 Financial Literacy Adventure for Years 7–9"
-  description: "At Bankxplorers, we believe learning about money doesn’t have to be boring! <br><br>That’s why our exciting ECA program transforms financial education into an action packed, hands on journey where you take on real money challenges and discover what it means to be a true Bankxplorer! <br><br>📚 Designed for Years 7–9, this weekly program blends real life scenarios, games, simulations, and group challenges to help you build confidence in making smart financial decisions now and in the future."
+  title: "Financial Literacy Adventure for Years 7–9"
+  description: "At Bankxplorers, we believe learning about money doesn’t have to be boring! <br><br>That’s why our exciting ECA program transforms financial education into an action packed, hands on journey where you take on real money challenges and discover what it means to be a true Bankxplorer! <br><br>Designed for Years 7–9, this weekly program blends real life scenarios, games, simulations, and group challenges to help you build confidence in making smart financial decisions now and in the future."
 
   image: "images/about/01.jpg"
 
@@ -18,7 +18,12 @@ what_we_do:
   title: "What you will explore!"
   block:
     - title: "Money Basics & Banking"
-      content: "Kick off your money adventure by discovering what money really is and how it moves around in the banking world. <br><br>**Understanding Money & Banks**<br>Uncover the role money plays in our lives, how banks keep it safe, and what it takes to open your own account. <br><br>**Income, Expenses & Bank Statements**<br>Become a money detective by tracking cash flow with real-life style bank statements. Debit Cards, Cheques & ATMsGet hands-on with everyday money tools — learn how to use debit cards safely, write cheques like a pro, and master the ATM."
+      content: "Kick off your money adventure by discovering what money really is and how it moves around in the banking world."
+      items:
+        - title: "Understanding Money & Banks"
+          content: "Uncover the role money plays in our lives, how banks keep it safe, and what it takes to open your own account."
+        - title: "Income, Expenses & Bank Statements"
+          content: "Become a money detective by tracking cash flow with real-life style bank statements. Debit Cards, Cheques & ATMsGet hands-on with everyday money tools — learn how to use debit cards safely, write cheques like a pro, and master the ATM."
 
     - title: "Budgeting, Saving & Spending"
       content: "Get hands-on with your money! Plan, budget, and spend wisely — all while having fun. <br><br>**Budgeting**<br>Learn the difference between needs and wants, and build your very own personal budget. <br><br>**Savings Accounts & Interest**<br>Watch your money grow! Discover how savings accounts and interest work to help you save smarter."
@@ -38,7 +43,7 @@ what_we_do:
 our_mission:
     enable: true
     substitle: "Build real-world money skills early"
-    title: "🌟 Why Join?"
+    title: "Why Join?"
     description: "Build real-world money skills early Learn in a supportive, game-based environment <br>Gain confidence in handling financial choices <br>Ideal for students managing allowance, planning for the future, or dreaming of business"
     image: "images/about/01.jpg"    
 ---
