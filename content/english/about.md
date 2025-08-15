@@ -8,9 +8,10 @@ who_we_are:
   enable: true
   subtitle: "Get to know your coach!"
   title: "Hi there! I’m Hamedah"
-  description: "I am the Founder of Bankxplorers, dedicated to empowering young minds with essential financial knowledge. <br><br> With years of experience in retail and personal banking, I’ve seen firsthand the importance of financial literacy in today’s fast-paced financial landscape. In addition to my role as a personal banker, I’ve had the opportunity to conduct educational webinars for customers and provide coaching and training for branch colleagues, creating a supportive learning environment.<br><br>My passion lies in bringing this industry knowledge and experience into the classroom, equipping young minds with essential banking and financial skills, needed to navigate their financial futures confidently, securely and responsibly.<br><br>Together, we’ll explore the banking world, develop smart money habits, and prepare for a successful future. Join us in shaping a generation of financially savvy individuals!"
+  description: "Founder of Bankxplorers, dedicated to empowering young minds with essential financial knowledge. <br><br> Having worked in retail and personal banking, I’ve seen firsthand how many people find everyday money decisions confusing, often simply because no one explained how it really works. Along the way, I led customer webinars, trained colleagues, and discovered what I love the most: making finance feel simple, clear, and actually useful.<br><br>My passion lies in bringing this industry knowledge and experience into the classroom, equipping young minds with essential banking and financial skills, needed to navigate their financial futures confidently, securely and responsibly. <br><br>Together, we’ll explore the banking world, build financial awareness and prepare for a successful future. Join us in shaping a generation of financially savvy individuals!"
 
   image: "images/about/01.jpg"
+
 
 # what_we_do
 what_we_do:

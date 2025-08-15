@@ -6,7 +6,7 @@
       <div class="container position-relative mt-5">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-10" data-aos="fade-up">
-            <div class="section-title">
+            <div class="section-title text-center">
               <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
               <h2 class="title">{{ .title | markdownify }}</h2>
               <p>{{ .description | markdownify }}</p>
@@ -17,15 +17,14 @@
     {{ end }}
   {{ end }}
 
-    <div class="container position-relative">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-10" data-aos="fade-up">
-          <div class="content">
-            <blockquote>This is an informative block</blockquote>
-          </div>
-        </div>
+  <div class="container position-relative">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-10 mb-4">
+        <div class="content info-box p-4 text-center">
+          <p class="m-0">ⓘ Please note that our workshops are purely educational and designed to introduce students in Years 7–9 to basic financial concepts in an age appropriate and engaging way. No financial advice is provided, and no financial products or services are promoted or endorsed. The content is intended to support general financial awareness, not personal financial decision making. Parents and guardians are encouraged to support conversations at home where appropriate.</p>
       </div>
     </div>
+  </div>
   
   {{ with .Params.what_we_do }}
     {{ if .enable }}
@@ -42,8 +41,8 @@
             {{ range .block }}
               <div class="col-xl-5 col-lg-6 m-4">
                 <div class="px-4 px-md-5 mt-4 text-center module-box">
-                  <h4 class="text-capitalize">{{ .title | markdownify }}</h4>
-                  <p>{{ .content | markdownify }}</p>
+                  <h4 class="text-capitalize mt-4">{{ .title | markdownify }}</h4>
+                  <p>{{ .content | markdownify }}</p><br>
                   <dl>
                     {{ range .items}}
                       <dt>{{ .title | markdownify }}</dt>
@@ -88,10 +87,14 @@
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
               data-aos-delay="150">
-              <div class="section-title">
+              <div class="content section-title">
                 <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
                 <h2 class="title">{{ .title | markdownify }}</h2>
-                <p>{{ .description | markdownify }}</p>
+                <ul>
+                  {{ range .items}}
+                    <li>{{ .content | markdownify }}</li>
+                  {{ end }}
+                </ul>
               </div>
             </div>
           </div>

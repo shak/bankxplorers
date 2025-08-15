@@ -17,33 +17,63 @@ what_we_do:
   subtitle: ""
   title: "What you will explore!"
   block:
-    - title: "Money Basics & Banking"
-      content: "Kick off your money adventure by discovering what money really is and how it moves around in the banking world."
+    - title: "Money & Banking"
+      content: ""
       items:
-        - title: "Understanding Money & Banks"
+        - title: "Banking Basics"
           content: "Uncover the role money plays in our lives, how banks keep it safe, and what it takes to open your own account."
-        - title: "Income, Expenses & Bank Statements"
-          content: "Become a money detective by tracking cash flow with real-life style bank statements. Debit Cards, Cheques & ATMsGet hands-on with everyday money tools — learn how to use debit cards safely, write cheques like a pro, and master the ATM."
+        - title: "Current Accounts"
+          content: "Time to become a money detective! Use realistic bank statements to manage a current account, make payments with a debit card and write cheques like a pro!"
 
-    - title: "Budgeting, Saving & Spending"
-      content: "Get hands-on with your money! Plan, budget, and spend wisely — all while having fun. <br><br>**Budgeting**<br>Learn the difference between needs and wants, and build your very own personal budget. <br><br>**Savings Accounts & Interest**<br>Watch your money grow! Discover how savings accounts and interest work to help you save smarter."
+    - title: "Saving & Spending"
+      content: ""
+      items:
+        - title: "Savings Accounts & Budgeting"
+          content: "Saving money can be fun, especially when you see it grow! Open a savings account, build your own budget, and figure out the difference between needs and wants."
+        - title: "Smart Consumer Skills"
+          content: "Uncover how peer pressure and clever marketing shape spending choices, and see how they influence decisions in everyday life."
 
-    - title: "Credit, Risk & Investing"
-      content: "Take your money skills to the next level by diving into borrowing and investing. <br><br>**Borrowing Made Simple**<br>Discover how borrowing works and check out different types like loans, overdrafts, and mortgages. Dive deeper into credit cards and learn how to use them smartly! <br><br>**Understanding Credit Scores**<br>Find out what credit scores are, how they’re calculated, and why they matter for your future borrowing power. <br><br>**Basic Introduction to Investing**<br>Explore how stocks, bonds, and risks team up to help your money grow over time!"
+    - title: "Borrowing Basics"
+      content: ""
+      items:
+        - title: "Borrowing Made Simple"
+          content: "What exactly is a loan, an overdraft, or a mortgage? Dive into the world of borrowing, and even manage a pretend credit card account to see how it all works in the real world."
+        - title: "Understanding Credit Scores"
+          content: "What’s a credit score and why does it matter? Explore how these “money scores” work through fun examples and simulations: no pressure, just play!"
 
-    - title: "Smart Spending & Consumer Awareness"
-      content: "Discover what shapes your spending choices — and jump into entrepreneurship with a fun mini-business challenge.<br><br>**Smart Consumer Skills**<br>Learn how things like peer pressure and clever marketing influence your decisions — and how to make smart, confident money moves. <br><br>**Entrepreneurship**<br> Team up for a mini-business challenge! Explore how ideas become real products and get a taste of what it’s like to launch something of your own."
+    - title: "Entrepreneurship & Investing"
+      content: ""
+      items:
+        - title: "Entrepreneurship"
+          content: "Got big ideas? Team up for a mini business challenge and bring your creative thinking to life!"
+        - title: "Basic Introduction to Investing"
+          content: "Think you can guess why stock prices rise or fall? Play your way through the basics of investing, explore how the stock market works, and discover what risk is, all through games and simple challenges!"
 
-    - title: "Online Money & Digital Safety"
-      content: "Money moves fast online, but so do scammers! Get ready to become a digital money hero by learning how to keep your cash and info safe. <br><br>**Online Spending & Scam Awareness**<br>Discover how to spot phishing and other scams with real-life stories and interactive challenges that put your skills to the test. <br><br>**Digital Banking & Payment Security**<br>Find out how to protect your personal info and bank safely online like a pro."
+    - title: "Online Spending & Digital Safety"
+      content: ""
+      items:
+        - title: "Spotting Scams Online"
+          content: "Think you can spot a scam? Take on interactive challenges that put your online safety skills to the test and help you stay one step ahead!"
+        - title: "Staying Safe with Online Banking"
+          content: "Find out how to protect your personal info and bank safely online like a pro."
 
     - title: "Real World Simulation & Final Projects"
-      content: "It’s game time! Put your skills to the test with a full simulation and final group projects. <br><br>**Week 13** – Game Day RecapCompete in team-based simulations, solve financial puzzles, and recap key concepts. <br><br>**Week 14** – Final ProjectsWrap up the program with a creative project presentation and celebrate your achievements!"
+      content: ""
+      items:
+        - title: "Game Day Recap"
+          content: "Compete in team based simulations, solve financial puzzles, and recap key concepts."
+        - title: "Final Projects"
+          content: "Wrap up the program with a creative project presentation and celebrate your achievements!"
 
 our_mission:
     enable: true
     substitle: "Build real-world money skills early"
     title: "Why Join?"
-    description: "Build real-world money skills early Learn in a supportive, game-based environment <br>Gain confidence in handling financial choices <br>Ideal for students managing allowance, planning for the future, or dreaming of business"
+    description: "● Build real world money skills.<br><br>● Learn through fun, hands on activities.<br><br>● Gain confidence in managing pocket money and everyday finances.<br><br>● Perfect for students preparing to study abroad or live independently."
+    items:
+      - content: Build real world money skills.
+      - content: Learn through fun, hands on activities.
+      - content: Gain confidence in managing pocket money and everyday finances.
+      - content: Perfect for students preparing to study abroad or live independently.
     image: "images/about/01.jpg"    
 ---

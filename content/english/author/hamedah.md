@@ -1,6 +1,6 @@
 ---
 title: "Hamedah"
-image: "images/author/abdullah.jpg"
+image: "images/author/hamedah.jpg"
 email: "bankxplorers@gmail.com"
 social:
   - icon: "lab la-instagram"
