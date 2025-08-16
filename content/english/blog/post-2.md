@@ -1,7 +1,7 @@
 ---
 date: "2025-04-11"
 title: "Money in Action: How Everyday Choices Help Students Learn About Money"
-image: "images/blog/greenmoneyinaction.jpg"
+image: "images/blog/money-in-action.jpg"
 author: "hamedah"
 draft: false
 ---
