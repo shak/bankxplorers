@@ -1,0 +1,104 @@
+{{ define "main" }}
+  {{ partial "components/page-header-small.html" . }}
+
+  {{ with .Params.who_we_are }}
+    {{ if .enable }}
+      <div class="container position-relative mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-10" data-aos="fade-up">
+            <div class="section-title text-center">
+              <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
+              <h2 class="title">{{ .title | markdownify }}</h2>
+              <p>{{ .description | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.our_mission }}
+    {{ if .enable }}
+      <section class="section-sm p-0">
+        <div class="container position-relative">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-6" data-aos="fade-up">
+              <div class="about-image">
+                <div class="block">
+                  {{ partial "image.html" (dict "Src" .image "Alt" "about-image" "Size" "4645x") }}
+
+
+                  <div class="has-circle">
+                    <span class="circle-4 ratio-20 fill"></span>
+                    <span class="circle-5 ratio-47"></span>
+                  </div>
+                </div>
+
+                <div class="has-circle">
+                  <span class="circle-1 ratio-85 fill"></span>
+                  <span class="circle-2 ratio-37"></span>
+                  <span class="circle-3 ratio-20 fill"></span>
+                  <span class="circle-6 ratio-85 fill"></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="150">
+              <div class="content section-title">
+                <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
+                <h2 class="title">{{ .title | markdownify }}</h2>
+                <p>{{ .description | markdownify }}</p>
+                <ul>
+                  {{ range .items}}
+                    <li>{{ .content | markdownify }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container position-relative">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-9 col-md-12">
+            <div class="content info-box p-4 text-center">
+              <p class="m-0">ⓘ Please note that our workshops are purely educational and designed to introduce students to basic financial concepts in an age appropriate, engaging way. No financial advice is provided, and no financial products or services are promoted or endorsed. The content supports general financial awareness, not personal financial decision making. Parents and guardians are encouraged to support conversations at home where appropriate.</p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+  
+  {{ with .Params.what_we_do }}
+    {{ if .enable }}
+      <section class="py-5" data-aos="fade-in">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="section-title text-center">
+                <h2 class="title">{{ .title | markdownify }}</h2>
+              </div>
+            </div>
+
+            {{ range .block }}
+              <div class="col-xl-5 col-lg-6 m-4">
+                <div class="px-4 px-md-5 mt-4 text-center module-box">
+                  <h4 class="text-capitalize mt-4">{{ .title | markdownify }}</h4>
+                  <p>{{ .content | markdownify }}</p><br>
+                  <dl>
+                    {{ range .items}}
+                      <dt>{{ .title | markdownify }}</dt>
+                      <dd>{{ .content | markdownify }}</dd><br>
+                    {{ end }}
+                  </dl>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

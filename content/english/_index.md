@@ -2,7 +2,7 @@
 # banner
 banner:
   title: "Are you ready to take control of your finances?"
-  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence.Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!"
+  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!"
   button_enable: false
   button: false
   button_link: "https://gethugothemes.com/products/andromeda/"
@@ -30,7 +30,7 @@ features:
       content: "Firsthand experiences from the banking industry, including valuable tips on managing finances and navigating banking services"
     - icon: "las la-user"
       title: "Interactive Learning"
-      content: "Hands-on activities, discussions and simulations that make complex concepts relatable"
+      content: "Hands on activities, discussions and simulations that make complex concepts relatable"
     # - icon: "las la-link"
     #   title: "Instant Link Shareing"
     #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
@@ -67,47 +67,52 @@ how_it_works:
 
   - subtitle: "What we offer?"
     title: "Navigating the digital world safely and securely"
-    description: "Scammers are getting smarter, but so are we! Learn how to protect your personal information, recognise phishing scams, and secure your accounts with smart practices. We’ll arm you with the tools you need to be a savvy digital banker!"
+    description: "Scammers are getting smarter, but so are we! Explore how passwords, personal information and online scams connect, and what it means to be one step ahead in online banking!"
     image: "images/features-03.png"
 
 
 # testimonials
 testimonials:
-  enable: false
-  subtitle: "Our Testimonial"
+  enable: true
+  subtitle: "Testimonials"
   title: "Don't take our word for it"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  description: ""
   image_left: "images/testimonials-01.png"
   image_right: "images/testimonials-02.png"
 
   testimonials_quotes:
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/05-i.jpg"
+    - quote: "The phishing email activity was really fun as some fake messages were tricky to spot"
+      name: "D"
+      designation: "Year 8"
+      image: "images/user-img/4.jpg"
 
-    - quote: "Conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/06-i.jpg"
+    - quote: "I really liked the worksheets (bank statements) and how we had to improvise if an emergency happens"
+      name: "Y"
+      designation: "Year 8"
+      image: "images/user-img/1.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/07-i.jpg"
+    - quote: "The workshop was very informative and the activities helped me understand more about banking as a whole since it was a foreign subject to me. Overall, very useful and informative and it would be beneficial for me friends to do it"
+      name: "L"
+      designation: "Year 8"
+      image: "images/user-img/2.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/08-i.jpg"
+    - quote: "I enjoyed using the dummy cards and managing three different accounts. It was a new experience for me, and I liked learning how to handle mandatory expenses"
+      name: "A"
+      designation: "Year 8"
+      image: "images/user-img/5.jpg"
 
-    - quote: "Lorem ipsum dolor ame conseetur. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/09-i.jpg"
+    - quote: "The role playing activities made it easy to understand things like interest rates. It was like a game, but I learned a lot!"
+      name: "S"
+      designation: "Year 8"
+      image: "images/user-img/1.jpg"
 
-    - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue lectudbfs pellentesque vitae dolor faucibus"
-      name: "David Cameron"
-      designation: "CEO, Nexuspay"
-      image: "images/user-img/10-i.jpg"
+    - quote: "I’ve always wanted to use a debit card. Trying out a pretend one in the workshop was fun and helped me understand how to actually use it"
+      name: "K"
+      designation: "Year 8"
+      image: "images/user-img/3.jpg"
+
+    - quote: "The phishing email activity was really helpful. I learned to spot signs like strange links and urgent language"
+      name: "A"
+      designation: "Year 8"
+      image: "images/user-img/4.jpg"
 ---

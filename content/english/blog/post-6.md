@@ -3,7 +3,7 @@ date: "2021-07-09"
 title: "How to write a brief for a new website or app."
 image: "images/blog/06.jpg"
 author: "abdullah-al-shifat"
-draft: false
+draft: true
 ---
 
 Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget

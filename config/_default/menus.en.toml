@@ -9,18 +9,17 @@ weight = 1
 [[main]]
 name = "About"
 url = "about/"
+weight = 5
+
+[[main]]
+name = "ECA"
+url = "eca/"
 weight = 2
 
-# [[main]]
-# name = "ECS"
-# url = "ecs"
-# weight = 2
-
-
-# [[main]]
-# name = "Blog"
-# url = "blog/"
-# weight = 3
+[[main]]
+name = "Blogs"
+url = "blog/"
+weight = 4
 
 # [[main]]
 # weight = 4
@@ -33,22 +32,15 @@ weight = 2
 #   url = "blog/post-1/"
 #   weight = 1
 
-
-#   [[main]]
-#   parent = "Pages"
-#   name = "Terms & Conditions"
-#   url = "terms-and-conditions/"
-#   weight = 2
+[[main]]
+name = "FAQs"
+url = "faqs/"
+weight = 3
 
 # [[main]]
 # name = "Contact"
 # url = "contact/"
 # weight = 5
-
-
-
-
-
 
 # footer menu
 # [[footer]]
