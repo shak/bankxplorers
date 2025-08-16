@@ -1,7 +1,7 @@
 ---
-date: "2025-04-11"
+date: "2025-03-01"
 title: "Learning About Money Doesn’t Have to Be Boring: Why Real Life Simulations Work"
-image: "images/blog/04.jpg"
+image: "images/blog/boring.jpg"
 author: "hamedah"
 draft: false
 ---
@@ -14,7 +14,7 @@ That’s the power of simulations. They let students explore real life money cho
 #### Learn by Doing (Not Just Listening)
 Let’s be honest, lectures and worksheets only go so far. What really sticks is experience. Simulations turn tricky ideas like interest rates or long term savings into something you can see and feel in action.
 
-Students don’t just hear what smart choices look like, they make them. And sometimes they make not so great ones too… which is exactly the point.
+Students don’t just hear what smart choices look like, they make them. And sometimes they make not so great ones too… which is exactly the point!
 
 #### Safe Space to Make Mistakes
 In a simulation, mistakes aren’t a problem, they’re the point! Whether a student overspends, forgets to save, or runs out of “money,” it all becomes part of the learning.

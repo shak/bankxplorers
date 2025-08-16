@@ -5,12 +5,20 @@ draft: false
 
 # who_we_are
 who_we_are:
-  enable: true
+  enable: false
   subtitle: ""
   title: "Financial Literacy Adventure for Years 7–9"
-  description: "At Bankxplorers, we believe learning about money doesn’t have to be boring! <br><br>That’s why our exciting ECA program transforms financial education into an action packed, hands on journey where you take on real money challenges and discover what it means to be a true Bankxplorer! <br><br>Designed for Years 7–9, this weekly program blends real life scenarios, games, simulations, and group challenges to help you build confidence in making smart financial decisions now and in the future."
+  description: ""
 
   image: "images/about/01.jpg"
+
+our_mission:
+    enable: true
+    substitle: "Financial Literacy Adventure for Years 7–9"
+    title: "Financial Literacy Adventure for Years 7–9"
+    description: "At Bankxplorers, we believe learning about money doesn’t have to be boring!<br><br>Our exciting ECA program transforms financial education into an action packed, hands on journey with games, simulations, and group challenges.<br><br>Get ready to take on real money challenges and discover what it means to be a true Bankxplorer!<br><br>Find our more about the journey on our Instagram: @bankxplorers."
+    items:
+    image: "images/about/01.jpg"  
 
 what_we_do:
   enable: true
@@ -31,7 +39,7 @@ what_we_do:
         - title: "Savings Accounts & Budgeting"
           content: "Saving money can be fun, especially when you see it grow! Open a savings account, build your own budget, and figure out the difference between needs and wants."
         - title: "Smart Consumer Skills"
-          content: "Uncover how peer pressure and clever marketing shape spending choices, and see how they influence decisions in everyday life."
+          content: "Uncover how peer pressure and marketing can shape spending choices, and how they influence decisions in everyday life."
 
     - title: "Borrowing Basics"
       content: ""
@@ -47,15 +55,15 @@ what_we_do:
         - title: "Entrepreneurship"
           content: "Got big ideas? Team up for a mini business challenge and bring your creative thinking to life!"
         - title: "Basic Introduction to Investing"
-          content: "Think you can guess why stock prices rise or fall? Play your way through the basics of investing, explore how the stock market works, and discover what risk is, all through games and simple challenges!"
+          content: "Think you can guess why stock prices rise or fall? Dive into the basics of investing, explore how the stock market works, and learn what risk means, all through games and simple challenges!"
 
     - title: "Online Spending & Digital Safety"
       content: ""
       items:
         - title: "Spotting Scams Online"
           content: "Think you can spot a scam? Take on interactive challenges that put your online safety skills to the test and help you stay one step ahead!"
-        - title: "Staying Safe with Online Banking"
-          content: "Find out how to protect your personal info and bank safely online like a pro."
+        - title: "Personal information, Passwords and Online Banking"
+          content: "Discover how they are connected and why protecting personal details matters when managing money online."
 
     - title: "Real World Simulation & Final Projects"
       content: ""
@@ -65,15 +73,15 @@ what_we_do:
         - title: "Final Projects"
           content: "Wrap up the program with a creative project presentation and celebrate your achievements!"
 
-our_mission:
-    enable: true
-    substitle: "Build real-world money skills early"
-    title: "Why Join?"
-    description: "● Build real world money skills.<br><br>● Learn through fun, hands on activities.<br><br>● Gain confidence in managing pocket money and everyday finances.<br><br>● Perfect for students preparing to study abroad or live independently."
-    items:
-      - content: Build real world money skills.
-      - content: Learn through fun, hands on activities.
-      - content: Gain confidence in managing pocket money and everyday finances.
-      - content: Perfect for students preparing to study abroad or live independently.
-    image: "images/about/01.jpg"    
+# our_mission:
+#     enable: true
+#     substitle: "Build real-world money skills early"
+#     title: "Why Join?"
+#     description: "● Build real world money skills.<br><br>● Learn through fun, hands on activities.<br><br>● Gain confidence in managing pocket money and everyday finances.<br><br>● Perfect for students preparing to study abroad or live independently."
+#     items:
+#       - content: Build real world money skills.
+#       - content: Learn through fun, hands on activities.
+#       - content: Gain confidence in managing pocket money and everyday finances.
+#       - content: Perfect for students preparing to study abroad or live independently.
+#     image: "images/about/01.jpg"    
 ---

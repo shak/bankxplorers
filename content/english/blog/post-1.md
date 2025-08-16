@@ -1,10 +1,11 @@
 ---
 date: "2025-02-20"
 title: "Money Matters: Why Financial Education Should Start from ages 10-14"
-image: "images/blog/01.jpg"
+image: "images/blog/money-matters.jpg"
 author: "Hamedah"
 draft: false
 ---
+When did you first learn how to manage money?
 
 For many adults, the answer would be something like:
 
@@ -28,12 +29,12 @@ They may not have full time jobs or bills, but they do have:
 - Digital spending on games or subscriptions
 - Peer influence and social pressure
 - Exposure to money via social media and advertising
-- And without context, they often fill in the gaps with what they think is true:
 
-"Saving means not having fun."<br>
-"If it's on sale, it's a good deal, even if I don't need it."<br>
-"If I have to budget, it means I'm broke."<br>
-"You only need to worry about money when you get a job"<br>
+And without context, they often fill in the gaps with what they think is true:
+
+*"Saving means not having fun."*<br>
+*"If it's on sale, it's a good deal, even if I don't need it."*<br>
+*"If I have to budget, it means I'm broke."*<br>
 
 These aren't careless ideas: they're just gaps in understanding.
 
@@ -51,7 +52,8 @@ Students figure it out themselves. Sometimes that works. But more often, it lead
 - Struggles with saving
 - Confusion around cards and accounts
 - A growing sense that money is stressful or "not for them"
-- This isn't about intelligence. It's about preparation. Even the most capable students can feel lost if no one shows them the basics.
+
+This isn't about intelligence. It's about preparation. Even the most capable students can feel lost if no one shows them the basics.
 
 #### Starting the Conversation Earlier
 
@@ -63,13 +65,12 @@ Think:
 - How savings add up over time
 - What a debit card actually does
 - Why advertising is designed to make you spend
-- How to make a choice you feel good about
 
 These are practical ideas. And they work best when they're introduced before money becomes a problem.
 
 #### A Life Skill, Not Just a Lesson
 
-Hence, financial literacy isn't a checklist item. It's a life skill! Just like learning to cook or managing your time.
+Hence, financial literacy isn't a checklist item. It's a life skill! Just like learning how to cook or managing your time.
 
 And like any skill, it's easier to learn before habits become permanent.
 

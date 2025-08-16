@@ -1,7 +1,7 @@
 ---
-date: "2025-03-02"
+date: "2025-04-11"
 title: "Money in Action: How Everyday Choices Help Students Learn About Money"
-image: "images/blog/02.jpg"
+image: "images/blog/greenmoneyinaction.jpg"
 author: "hamedah"
 draft: false
 ---
@@ -28,7 +28,5 @@ Working together with friends to raise cash for a charity, purchase a collective
 
 #### Why These Moments Matter
 Money lessons aren’t just for classrooms: they happen all day, every day. When students make small money choices, they’re actually levelling up their skills without even realising it.
-
-Every choice, from snacks to saving, is a secret training for the money smart pros they’re becoming.
 
 So next time you’re spending or saving, remember this: you’re not just handling money, you’re getting ready to rock the real world. And honestly, that’s way cooler than any worksheet!

@@ -2,7 +2,7 @@
 # banner
 banner:
   title: "Are you ready to take control of your finances?"
-  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence.Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!"
+  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!"
   button_enable: false
   button: false
   button_link: "https://gethugothemes.com/products/andromeda/"
@@ -30,7 +30,7 @@ features:
       content: "Firsthand experiences from the banking industry, including valuable tips on managing finances and navigating banking services"
     - icon: "las la-user"
       title: "Interactive Learning"
-      content: "Hands-on activities, discussions and simulations that make complex concepts relatable"
+      content: "Hands on activities, discussions and simulations that make complex concepts relatable"
     # - icon: "las la-link"
     #   title: "Instant Link Shareing"
     #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus"
@@ -67,21 +67,21 @@ how_it_works:
 
   - subtitle: "What we offer?"
     title: "Navigating the digital world safely and securely"
-    description: "Scammers are getting smarter, but so are we! Learn how to protect your personal information, recognise phishing scams, and secure your accounts with smart practices. We’ll arm you with the tools you need to be a savvy digital banker!"
+    description: "Scammers are getting smarter, but so are we! Explore how passwords, personal information and online scams connect, and what it means to be one step ahead in online banking!"
     image: "images/features-03.png"
 
 
 # testimonials
 testimonials:
   enable: true
-  subtitle: "Our Testimonial"
+  subtitle: "Testimonials"
   title: "Don't take our word for it"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
+  description: ""
   image_left: "images/testimonials-01.png"
   image_right: "images/testimonials-02.png"
 
   testimonials_quotes:
-    - quote: "I learned so much and now I know how to save money and use it correctly"
+    - quote: "The phishing email activity was really fun as some fake messages were tricky to spot"
       name: "D"
       designation: "Year 8"
       image: "images/user-img/4.jpg"

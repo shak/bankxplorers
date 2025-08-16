@@ -1,15 +1,15 @@
 ---
 title: "FAQ"
-date: "2025-01-14"
+date: "2025-07-14"
 layout: "faqs"
 draft: false
 
-description: "💬 Quick Answers for Curious Minds"
+description: ""
 ---
 
 ### Q: Why should I join this workshop?
 
-Because it’s your chance to explore how money works in the real world through activities, games, and challenges designed just for students your age.
+It’s your chance to explore how money works in the real world through activities, games, and challenges designed just for students your age.
 
 
 ### Q: Isn’t this only useful for adults with jobs or bank accounts?
@@ -18,7 +18,7 @@ It’s designed especially for students. Even if you’re just starting to get p
 
 ### Q: Am I too young to learn about money?
 
-Not at all! You don’t need to be a certain age to get curious about how money works. The sooner you start, the easier it gets. Learning now helps you avoid mistakes and feel confident as you grow.
+Not at all! You don’t need to be a certain age to get curious about how money works. The sooner you start, the easier it gets. Learning now helps build confidence as you grow.
 
 ### Q: Do I need to be good at maths?
 
