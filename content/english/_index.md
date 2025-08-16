@@ -2,7 +2,7 @@
 # banner
 banner:
   title: "Are you ready to take control of your finances?"
-  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you’re saving for your first car, planning for college, or just curious about managing money, we’ve got you covered!"
+  texts: "Our banking and financial literacy workshops are designed specifically for teenagers looking to build a strong foundation for financial independence. Whether you're saving for your first car, planning for college, or just curious about managing money, we've got you covered!"
   button_enable: false
   button: false
   button_link: "https://gethugothemes.com/products/andromeda/"
@@ -106,13 +106,8 @@ testimonials:
       designation: "Year 8"
       image: "images/user-img/1.jpg"
 
-    - quote: "I’ve always wanted to use a debit card. Trying out a pretend one in the workshop was fun and helped me understand how to actually use it"
+    - quote: "I've always wanted to use a debit card. Trying out a pretend one in the workshop was fun and helped me understand how to actually use it"
       name: "K"
       designation: "Year 8"
       image: "images/user-img/3.jpg"
-
-    - quote: "The phishing email activity was really helpful. I learned to spot signs like strange links and urgent language"
-      name: "A"
-      designation: "Year 8"
-      image: "images/user-img/4.jpg"
 ---
