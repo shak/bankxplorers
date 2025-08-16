@@ -40,10 +40,9 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "Buy Premium"
-link = "https://gethugothemes.com/products/andromeda/" 
-
+enable = true
+label = "bankxplorers"
+link = "https://www.instagram.com/bankxplorers" 
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
